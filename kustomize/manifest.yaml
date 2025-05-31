@@ -140,7 +140,7 @@ spec:
             - containerPort: 80
           env:
             - name: API_BASE_URL
-              value: "http://localhost"
+              value: "http://172.203.132.36"
 ---
 apiVersion: v1
 kind: ConfigMap
